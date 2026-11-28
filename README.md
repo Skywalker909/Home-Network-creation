@@ -101,7 +101,7 @@ With the PC now reachable at a fixed IP address, an SMB (file sharing) server wa
    ```
 
    For example: `smb://192.168.1.50`
-5. Tap **Connect**, then choose **Registered User** and enter the PC's Windows username and password (or **Guest**, if guest access was enabled on the share).
+5. Tap **Connect**, then choose **Guest**
 6. The shared folder now appears under **Shared** in the Files app sidebar, and can be browsed, previewed, or have media played directly from it.
 
 ### 9.2 Android (using a file manager that supports SMB/CIFS)
@@ -114,7 +114,7 @@ The default Google Files app has limited SMB support, so a file manager with net
 4. Enter the following details:
    * **Server address:** the PC's fixed IP address (e.g. `192.168.1.50`)
    * **Share name:** the name of the shared folder on the PC
-   * **Username / Password:** the PC's Windows login credentials (or leave blank for guest access, if enabled)
+   * **Username / Password:**  leave blank for guest access.
 5. Save the connection. The shared folder now appears as a browsable network location within the app.
 
 ### 9.3 Android TV (streaming media via VLC or Kodi)
@@ -130,15 +130,14 @@ For streaming video and audio directly to the TV, a media player app with SMB su
    ```
    smb://<PC's fixed IP address>/<share name>
    ```
-4. Enter the username and password when prompted.
-5. Browse to the desired media file and select it to begin streaming.
+4. Browse to the desired media file and select it to begin streaming.
 
 **Using Kodi (alternative):**
 
 1. Install **Kodi** on the Android TV device.
 2. Go to **Settings > Media > Add Source**.
 3. Select **Browse**, then **Windows network (SMB)**.
-4. Enter the server IP address, share name, and credentials, or browse to the share directly.
+4. Enter the server IP address, share name, and credentials (blank for guest), or browse to the share directly.
 5. Save the source, then access it from the Kodi home screen to play back media.
 
 ### 9.4 Result
